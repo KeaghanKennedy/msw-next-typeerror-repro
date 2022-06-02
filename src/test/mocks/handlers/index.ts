@@ -5,7 +5,7 @@ export const handlers = [
   rest.get("https://my.backend/example", (req, res, ctx) => {
     return res(
       ctx.json({
-        title: nanoid(),
+        id: nanoid(),
         imageUrl: "/book-cover.jpg",
         description:
           "The Lord of the Rings is an epic high-fantasy novel written by English author and scholar J. R. R. Tolkien.",
